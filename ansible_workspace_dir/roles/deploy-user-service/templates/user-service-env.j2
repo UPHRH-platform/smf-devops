@@ -23,12 +23,12 @@ flyway.url=jdbc:mysql://{{ mysql_host }}:3306/retail_user
 flyway.locations=db/migration/ddl
 
 ### Email configuration ###
-mail.smtp.host=email-smtp.ap-south-1.amazonaws.com
+mail.smtp.host={{ smtp_host }}
 mail.smtp.auth=true
-mail.smtp.port=587
-mail.smtp.user=AKIAUT2CINKDQZBB5BBT
-mail.smtp.password=BFlcJ5K2pekNcgLG8Joo9y78JL5DyO0gIhztJpeRm93d
-mail.smtp.email=idc-eagle@tarento.com
+mail.smtp.port={{ smtp_port }}
+mail.smtp.user={{ smtp_username }}
+mail.smtp.password={{ smtp_password }}
+mail.smtp.email={{ smtp_email }}
 
 ### Expiry Timings ###
 otp.validity.mins=5
