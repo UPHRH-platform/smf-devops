@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   proxy:
-    image: {{ docker_hub_url }}/nginx:smf
+    image: {{ docker_hub_url }}/smf-nginx:{{ tag }}
     ports:
       - "443:443"
       - "80:80"
