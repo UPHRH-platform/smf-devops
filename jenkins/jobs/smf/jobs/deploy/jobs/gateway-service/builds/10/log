@@ -1,0 +1,37 @@
+Started by user [8mha:////4ML1+8Sm9Zewo9y+9iTykn2rAWpE31Iu5sK103ABZj7kAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mups-Admin
+Rebuilds build #[8mha:////4Hj/q+NeZhPN1BDWN93BcjDUqCXxRh045Xj1Llm06j4tAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBk39rPwk/eLcNDCdklqQk18JZqYnlqSWJ1bqFqcWlWUmp+pbAAB/Kva73gAAAA==[0m8
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/smf/deploy/gateway-service
+Copied 1 artifact from "[8mha:////4BWjrXA989W9zAV6q7wzTe8eVi2PMuGqpxiIcmyJViDQAAAAoR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLWFQ18/KT9Ivzk0D00mlmTkpYFZ6YklqeWKlbnFqUVlmcqo+AHxVB0usAAAA[0msmf » build » gateway-service" build number [8mha:////4O4NFY5HvCC+C2fnByxVNPX/ayPpAXADbn181449CdeSAAAAoh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYdDUz8pP0i/OTQPTSaWZOSlgVnpiSWp5YqVucWpRWWZyqr6pPgDdTr9vrgAAAA==[0m5
+[gateway-service] $ /bin/bash /tmp/jenkins8993452713377015035.sh
+
+PLAY [dev] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [10.4.0.4]
+
+TASK [deploy-gateway-service : Ensure env directory exists] ********************
+ok: [10.4.0.4]
+
+TASK [deploy-gateway-service : Create and save env template] *******************
+ok: [10.4.0.4]
+
+TASK [deploy-gateway-service : Ensure compose files directory exists] **********
+ok: [10.4.0.4]
+
+TASK [deploy-gateway-service : Create and move gateway service template] *******
+changed: [10.4.0.4]
+
+TASK [deploy-gateway-service : Removing the existing service] ******************
+changed: [10.4.0.4]
+
+TASK [deploy-gateway-service : Deploy gateway service] *************************
+changed: [10.4.0.4]
+
+TASK [deploy-gateway-service : Remove the compose file from the location] ******
+changed: [10.4.0.4]
+
+PLAY RECAP *********************************************************************
+10.4.0.4                   : ok=8    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

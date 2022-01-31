@@ -1,0 +1,36 @@
+Started by user [8mha:////4ML1+8Sm9Zewo9y+9iTykn2rAWpE31Iu5sK103ABZj7kAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZu/dLi1CL9xJTczDwAawhpaMAAAAA=[0mups-Admin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/smf/deploy/form-service
+Copied 1 artifact from "[8mha:////4J/Q+Tf+qDxbLXQ4zG/3ayqLaGOM/rG/fuwSU+2ZthkwAAAAnR+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMiQLGFQ1s/KT9Ivzk0D00mlmTkpYFZ5apJucWpRWWZyqj4Adrid2KgAAAA=[0msmf » build » web-service" build number [8mha:////4JLeZwuJlcHAfwn6l6sz3pVJWypS61Im6Z3fTDnRGd1WAAAAnh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMQoYVDVz8pP0i/OTQPTSaWZOSlgVnlqkm5xalFZZnKqvok+ANhFpAGqAAAA[0m4
+[form-service] $ /bin/bash /tmp/jenkins1531897736486518743.sh
+
+PLAY [dev] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [10.4.0.4]
+
+TASK [deploy-web-service : Ensure env directory exists] ************************
+ok: [10.4.0.4]
+
+TASK [deploy-web-service : Create and save env template] ***********************
+ok: [10.4.0.4]
+
+TASK [deploy-web-service : Ensure compose files directory exists] **************
+ok: [10.4.0.4]
+
+TASK [deploy-web-service : Create and move web service template] ***************
+changed: [10.4.0.4]
+
+TASK [deploy-web-service : Removing the existing service] **********************
+changed: [10.4.0.4]
+
+TASK [deploy-web-service : Deploy web service] *********************************
+changed: [10.4.0.4]
+
+TASK [deploy-web-service : Remove the compose file from the location] **********
+changed: [10.4.0.4]
+
+PLAY RECAP *********************************************************************
+10.4.0.4                   : ok=8    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

@@ -1,0 +1,8 @@
+[dev]
+10.4.0.4
+
+[all:vars]
+ansible_connection=ssh
+ansible_ssh_user=ubuntu
+ansible_ssh_private_key_file=/var/lib/jenkins/secrets/ubuntu.pem
+
