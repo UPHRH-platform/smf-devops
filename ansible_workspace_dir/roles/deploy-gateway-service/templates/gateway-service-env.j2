@@ -16,7 +16,7 @@ zuul.routes.ingest.url=http://localhost:8097/
 
 zuul.routes.analytics.path=/dashboard/**
 zuul.routes.analytics.stripPrefix=false
-zuul.routes.analytics.url=http://localhost:8091/
+zuul.routes.analytics.url=http://{{ service_analytics_service }}:{{ service_analytics_port }}/
 
 zuul.routes.form.path=/forms/**
 zuul.routes.form.stripPrefix=false
