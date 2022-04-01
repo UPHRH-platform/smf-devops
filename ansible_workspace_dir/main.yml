@@ -14,6 +14,9 @@
       tags: [deploy-user-service]
     - role: deploy-gateway-service
       tags: [deploy-gateway-service]
+    - role: deploy-analytics-service
+      tags: [deploy-analytics-service]
+
     - role: stack-proxy
       tags: [stack-proxy]
 

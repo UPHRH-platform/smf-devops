@@ -22,6 +22,10 @@ es.fs.interactions.index.name=fs-interactions
 es.forms.fail.records.index.name=form-failure-records
 es.forms.fail.records.index.type=formfailurerecords
 
+es.fs.state.index.name=fs-forms-state
+es.fs.statematrix.index.name=fs-forms-state-matrix
+es.fs.workflowlog.index.name=fs-forms-workflow-log
+
 file.config.path=/
 file.config.name=FormConfig.yml
 
@@ -56,3 +60,4 @@ azure_storage_key={{ storage_key }}
 azure_storage_secret={{ storage_secret }}
 azure_storage_container={{ container_name }}
 
+user.routes.host.url=http://{{ service_user_service }}:{{ service_user_port }}
